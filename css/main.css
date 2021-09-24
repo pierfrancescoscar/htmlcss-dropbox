@@ -114,6 +114,10 @@ h3 {
     padding-bottom: 10px;
 }
 
+.w25 {
+    width: 25%;
+}
+
 
 
 .blue-button {
@@ -161,6 +165,8 @@ h3 {
     font-weight: 600;
     font-size: 12px;
 }
+
+
 
 
 /* Debug Box */
@@ -289,6 +295,16 @@ h3 {
 .enterprise-txt {
     width: 70%;
     float: left;
+}
+
+.enteprise-button-container {
+    width: 30%;
+    float: right;
+    
+}
+
+.enteprise-button-container .blue-button {
+    width: 25%;
 }
 
 
