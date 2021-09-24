@@ -47,7 +47,7 @@ body {
 
 .debug-box {
     height: 50px;
-    background-color: royalblue;
+    background-color: transparent
     border: 1px solid black;
 }
 
@@ -91,5 +91,12 @@ body {
     margin-right: 25px;
     cursor: pointer;
     
+}
+
+/* Hero */
+
+.hero-container {
+    width: 100%;
+    background-color: #B4D0E7;
 }
 
