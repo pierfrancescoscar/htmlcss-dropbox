@@ -34,6 +34,34 @@ body {
     margin-left: 25px;
 }
 
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.pt-70 {
+    padding-top: 70px;
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.pb-30 {
+    padding-bottom: 30px;
+}
+
+.pb-25 {
+    padding-bottom: 25px;
+}
+
+.pr-50 {
+    padding-right: 50px;
+}
+
 .blue-button {
     padding: 5px 10px 5px 10px;
     background-color: #0061FF;
@@ -98,5 +126,30 @@ body {
 .hero-container {
     width: 100%;
     background-color: #B4D0E7;
+    
 }
 
+.hero-content {
+    width: 70%;
+    margin: auto;
+
+}
+
+.hero-title {
+    font-size: 40px;
+}
+
+.hero-description {
+    width: 30%;
+    float: left;
+}
+
+.hero-image {
+    width: 70%;
+}
+
+.hero-image img {
+    width: 100%;
+    float: right;
+
+}
