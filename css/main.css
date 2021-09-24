@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif; 
 }
 
 body {
@@ -24,6 +24,13 @@ h2 {
     font-size: 35px;
     font-weight: 600;
 }
+
+h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
 
 .clearfix::after {
     content: '';
@@ -60,6 +67,10 @@ h2 {
     padding-top: 70px;
 }
 
+.pt-50 {
+    padding-top: 50px;
+}
+
 .pr-25 {
     padding-right: 25px;
 }
@@ -80,6 +91,25 @@ h2 {
     padding-right: 50px;
 }
 
+.pt-25 {
+    padding-top: 25px;
+}
+
+.px-50 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.px-25 {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.py-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .blue-button {
     padding: 5px 10px 5px 10px;
     background-color: #0061FF;
@@ -88,14 +118,34 @@ h2 {
     
 }
 
-.calcw100-3 {
-    width: calc(100% / 3);
+.cardw-30 {
+    width: 30%
+}
+
+.cardwx-5 {
+    margin: 0 5%;
+}
+
+.cardtag-style {
+    text-align: center;
+    border-bottom: 1px solid #D0D0D3;
+    
 }
 
 .card-styling {
     height: 900px;
     border: 1px solid #D0D0D3;
     float: left;
+}
+
+.ul-style {
+    list-style: none;
+    
+}
+
+.li-py-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 
@@ -198,6 +248,20 @@ h2 {
     width: 70%;
     margin: auto;
 }
+
+/* Cards Styling */
+
+.card-separator {
+    width: 25%;
+}
+
+.card-checklist ul li:before {
+    content: '\f00c';
+    
+}
+
+
+
 
 
 
