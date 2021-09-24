@@ -7,10 +7,16 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+body {
+    font-size: 14px;
+}
+
 .container {
     width: 100%;
     margin: 0 auto;
 }
+
+
 
 /* Utilities */
 
@@ -19,6 +25,23 @@
     display: table;
     clear: both;
 }
+
+.mr-25 {
+    margin-right: 25px;
+}
+
+.ml-25 {
+    margin-left: 25px;
+}
+
+.blue-button {
+    padding: 5px 10px 5px 10px;
+    background-color: #0061FF;
+    color: white;
+    border: none;
+    
+}
+
 
 /* Debug Box */
 
@@ -30,12 +53,43 @@
 
 /* Header */
 
+.header-container {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    background-color: white;
+}
+
 .header-1 {
     width: 50%;
     float: left;
 }
 
+.header-1 .logo {
+    float: left;
+    
+}
+
+.header-1 .logo img {
+    vertical-align: middle;
+}
+
+.header-1 nav ul li {
+    display: inline-block;
+    margin-right: 25px;
+    cursor: pointer;
+    
+}
+
 .header-2 {
     width: 50%;
-    float: left;
+    float: right;
 }
+
+.header-2 nav ul li {
+    display: inline-block;
+    margin-right: 25px;
+    cursor: pointer;
+    
+}
+
