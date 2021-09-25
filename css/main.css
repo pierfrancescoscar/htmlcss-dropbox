@@ -169,6 +169,9 @@ h3 {
     font-weight: 600;
     font-size: 12px;
 }
+.txt-underlined {
+    text-decoration: underline;
+}
 
 
 
@@ -348,6 +351,34 @@ h3 {
     border: 1px solid black;
     padding: 5px;
 }
+
+/* More Operations Sections */
+
+.more-op-generalcontainer {
+    width: 100%;
+}
+
+.more-op-boxcontainer {
+    width: 70%;
+    margin: auto;
+}
+
+.more-op-cards-container {
+    width: 100%;
+}
+
+.more-op-card {
+    float: left;
+
+}
+
+.more-op-card-img img {
+    width: 100%;
+}
+
+
+
+
 
 
 
