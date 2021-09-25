@@ -99,6 +99,10 @@ h3 {
     padding-top: 25px;
 }
 
+.pl-25 {
+    padding-left: 25px;
+}
+
 .px-50 {
     padding-left: 50px;
     padding-right: 50px;
@@ -306,6 +310,47 @@ h3 {
 .enteprise-button-container .blue-button {
     width: 25%;
 }
+
+/* Partner Section */
+
+.partner-general-container {
+    width: 100%;
+    
+}
+
+.partner-box-container {
+    width: 70%;
+    margin: auto;
+}
+
+.partner-image {
+    width: 50%;
+    float: left;
+}
+
+.partner-image img { 
+    width: 100%;
+
+}
+
+.partner-text {
+    width: 50%;
+    float: left;
+    
+}
+
+.partner-button {
+    float: left;
+}
+
+.partner-button button {
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+
+
 
 
 
