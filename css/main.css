@@ -170,6 +170,27 @@ h3 {
 .txt-underlined {
     text-decoration: underline;
 }
+.logo-filter {
+    filter: invert(100%);
+}
+.partner-wh100 {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.logo-w {
+    width: 100%;
+    vertical-align: middle;
+    padding: 25px;
+}
+
+.h-lh-box {
+    height: 150px;
+    line-height: 150px;
+}
+
+
 
 
 
@@ -314,12 +335,12 @@ h3 {
 
 /* Partner Section */
 
-.partner-general-container {
+.partnerdropbox-general-container {
     width: 100%;
     
 }
 
-.partner-box-container {
+.partnerdropbox-box-container {
     width: 70%;
     margin: auto;
 }
@@ -388,6 +409,105 @@ h3 {
 .team-title {
     width: 50%;
 }
+
+/* Partner Logos Section */
+
+.partner-general-container {
+    width: 100%
+}
+
+.partner-box-container {
+    width: 100%;
+}
+
+.left-box-cards {
+    width: 25%;
+    float: left;
+}
+
+.central-partner-box {
+    width: 50%;
+    
+}
+
+.right-box-cards {
+    width: 25%;
+    float: left;
+}
+
+.first-partner-cards {
+    width: 100%;
+
+}
+
+/* Left Logos */
+
+.designit-box {
+    background-color: #A2D39B;
+    width: 50%;
+    
+    
+}
+
+.asu-box {
+    background-color: #61082B;
+    width: 50%;
+    
+}
+
+.uf-box {
+    background-color: #0093CE;
+    width: 50%;
+    
+}
+
+.topps-box {
+    background-color: #FF1C1C;
+    width: 50%;
+    
+}
+
+/* Central Content Partner Box */
+
+.central-partner-box {
+    width: 50%;
+    background-color: #F5F5F5;
+    float: left;
+    height: 300px;
+
+}
+
+.central-partner-box-logo img {
+    width: 20%;
+}
+
+/* Right Logos */
+
+.wbr-box {
+    background-color: #D5001F;
+    width: 50%;
+}
+
+.hearst-box {
+    background-color: #B4D0E7;
+    width: 50%;
+}
+
+.lonely-planet-box {
+    background-color: #0D2481;
+    width: 50%;
+
+}
+
+.clear-channel-box {
+    background-color: #FFD830;
+    width: 50%;
+}
+
+
+
+
+
 
 
 
