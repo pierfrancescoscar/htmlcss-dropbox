@@ -58,6 +58,10 @@ h3 {
     margin-top: 150px;
 }
 
+.mb-150 {
+    margin-bottom: 150px;
+}
+
 .mx-5 {
     margin-left: 5%;
     margin-right: 5%;
@@ -85,6 +89,10 @@ h3 {
 
 .pb-30 {
     padding-bottom: 30px;
+}
+
+.pb-70 {
+    padding-bottom: 70px;
 }
 
 .pb-25 {
@@ -127,6 +135,7 @@ h3 {
     background-color: #0061FF;
     color: white;
     border: none;
+    cursor: pointer;
     
 }
 
@@ -188,6 +197,9 @@ h3 {
 .h-lh-box {
     height: 150px;
     line-height: 150px;
+}
+.color-white {
+    color: white;
 }
 
 
@@ -540,6 +552,7 @@ h3 {
     background-color: white;
     border: none;
     padding: 5px 25px;
+    cursor: pointer;
 }
 
 /* FAQ Section */
@@ -562,6 +575,7 @@ h3 {
 .faq-icon {
     width: 10%;
     float: right;
+    cursor: pointer;
 }
 
 .faq-separator {
@@ -571,7 +585,34 @@ h3 {
 
 .faq-separator hr {
     width: 100%;
+    
 }
+
+/* Footer */
+
+footer {
+    width: 100%;
+    background-color: black;
+}
+
+.footer-container {
+    width: 80%;
+    margin: auto;
+}
+
+.footer-cards {
+    width: 20%;
+    float: left;
+}
+
+.footer-links nav ul li {
+    list-style: none;
+    line-height: 30px;
+}
+
+
+
+
 
 
 
