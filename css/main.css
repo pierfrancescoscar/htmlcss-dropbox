@@ -610,6 +610,34 @@ footer {
     line-height: 30px;
 }
 
+/* Secondary Footer Content */
+
+.secondary-footer {
+    width: 100;
+
+}
+
+.secondary-footer-content {
+    width: 80%;
+    margin: auto;
+}
+
+.secondary-footer-separator hr {
+    width: 10%;
+}
+
+.footer-language {
+    color: #666666;
+}
+
+.footer-language-icon {
+    color: #666666;
+}
+.footer-language-iconup {
+    vertical-align: middle;
+    color: #666666;
+}
+
 
 
 
