@@ -122,8 +122,6 @@ h3 {
     width: 25%;
 }
 
-
-
 .blue-button {
     padding: 5px 10px 5px 10px;
     background-color: #0061FF;
@@ -375,6 +373,23 @@ h3 {
 .more-op-card-img img {
     width: 100%;
 }
+
+/* 500.000 Teams Section */
+
+.team-general-container {
+    width: 100%;
+}
+
+.team-container {
+    width: 70%;
+    margin: auto;
+}
+
+.team-title {
+    width: 50%;
+}
+
+
 
 
 
