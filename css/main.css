@@ -503,26 +503,47 @@ h3 {
 .designit-box {
     background-color: #A2D39B;
     width: 50%;
-    
-    
+    cursor: pointer;
+
+}
+
+.designit-box:hover {
+    box-shadow: inset 0px 5px 10px 1px #000000;
+    cursor: pointer;
 }
 
 .asu-box {
     background-color: #61082B;
     width: 50%;
-    
+    cursor: pointer;
+}
+
+.asu-box:hover {
+    box-shadow: inset 0px 5px 10px 1px #000000;
+    cursor: pointer;
 }
 
 .uf-box {
     background-color: #0093CE;
     width: 50%;
-    
+    cursor: pointer;
+}
+
+.uf-box:hover {
+    box-shadow: inset 0px 5px 10px 1px #000000;
+    cursor: pointer;
 }
 
 .topps-box {
     background-color: #FF1C1C;
     width: 50%;
-    
+    cursor: pointer;
+}
+
+.topps-box:hover {
+    box-shadow: inset 0px 5px 10px 1px #000000;
+    cursor: pointer;
+
 }
 
 /* Central Content Partner Box */
@@ -544,22 +565,51 @@ h3 {
 .wbr-box {
     background-color: #D5001F;
     width: 50%;
+    cursor: pointer;
+}
+
+.wbr-box:hover {
+    box-shadow: inset 0px 5px 10px 1px #000000;
+    cursor: pointer;
+
 }
 
 .hearst-box {
     background-color: #B4D0E7;
     width: 50%;
+    cursor: pointer;
+
+}
+
+.hearst-box:hover {
+    box-shadow: inset 0px 5px 10px 1px #000000;
+    cursor: pointer;
+
 }
 
 .lonely-planet-box {
     background-color: #0D2481;
     width: 50%;
+    cursor: pointer;
+}
+
+.lonely-planet-box:hover {
+    box-shadow: inset 0px 5px 10px 1px #000000;
+    cursor: pointer;
 
 }
 
 .clear-channel-box {
     background-color: #FFD830;
     width: 50%;
+    cursor: pointer;
+
+}
+
+.clear-channel-box:hover {
+    box-shadow: inset 0px 5px 10px 1px #000000;
+    cursor: pointer;
+
 }
 
 /* Dropbox CTA Section */
