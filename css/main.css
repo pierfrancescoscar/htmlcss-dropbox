@@ -226,6 +226,8 @@ h3 {
     height: 80px;
     line-height: 80px;
     background-color: white;
+    position: fixed;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .header-1 {
@@ -249,6 +251,7 @@ h3 {
     
 }
 /* Header Menu Item Hover */
+
 .header-1 nav ul li:hover {
     border-bottom: 2px solid black;
 }
@@ -256,9 +259,6 @@ h3 {
 .header-2 nav ul li:hover {
     border-bottom: 2px solid black;
 }
-
-
-
 
 .header-2 {
     width: 50%;
@@ -277,6 +277,7 @@ h3 {
 .hero-container {
     width: 100%;
     background-color: #B4D0E7;
+    padding-top: 60px;
     
 }
 
