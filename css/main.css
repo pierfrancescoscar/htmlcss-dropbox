@@ -7,6 +7,10 @@
     font-family: 'Open Sans', sans-serif; 
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-size: 14px;
 }
@@ -294,6 +298,10 @@ h3 {
 .hero-arrow {
     font-size: 30px;
     cursor: pointer;
+}
+
+.hero-arrow a {
+    color: black;
 }
 
 /* Business Section */
