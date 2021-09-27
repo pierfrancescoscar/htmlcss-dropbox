@@ -215,7 +215,7 @@ h3 {
 
 .debug-box {
     height: 50px;
-    background-color: transparent
+    background-color: transparent;
     border: 1px solid black;
 }
 
@@ -323,7 +323,9 @@ h3 {
 
 .card-checklist ul li:before {
     content: '\f00c';
-    
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    color: #0161FF;
 }
 
 /* Enterprise Box */
