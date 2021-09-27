@@ -654,7 +654,21 @@ footer {
 .footer-links nav ul li {
     list-style: none;
     line-height: 30px;
+    cursor: pointer;
 }
+
+.toggle-content {
+    display: none;
+}
+
+.faq-question-title:hover .toggle-content {
+    display: block;
+}
+
+
+
+
+
 
 /* Secondary Footer Content */
 
@@ -674,6 +688,7 @@ footer {
 
 .footer-language {
     color: #666666;
+    cursor: pointer;
 }
 
 .footer-language-icon {
@@ -683,6 +698,8 @@ footer {
     vertical-align: middle;
     color: #666666;
 }
+
+
 
 
 
