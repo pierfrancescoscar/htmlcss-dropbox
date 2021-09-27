@@ -634,6 +634,28 @@ h3 {
     
 }
 
+.toggle-content {
+    display: none;
+}
+
+.faq-question-title:hover .toggle-content {
+    display: block;
+}
+
+.faq-icon-2 {
+    display: none;
+}
+
+.faq-content:hover .faq-icon-2 {
+    display: block;
+}
+
+.faq-content:hover .faq-icon {
+    display: none;
+}
+
+
+
 /* Footer */
 
 footer {
@@ -656,19 +678,6 @@ footer {
     line-height: 30px;
     cursor: pointer;
 }
-
-.toggle-content {
-    display: none;
-}
-
-.faq-question-title:hover .toggle-content {
-    display: block;
-}
-
-
-
-
-
 
 /* Secondary Footer Content */
 
